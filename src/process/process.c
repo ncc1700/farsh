@@ -36,7 +36,6 @@ int get_pid_from_image(const char* image){
             closedir(dir);
             return pid;
         }
-
         close(fd);
     }
     closedir(dir);
